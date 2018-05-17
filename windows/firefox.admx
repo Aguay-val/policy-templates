@@ -15,7 +15,7 @@
       <parentCategory ref="Mozilla:Cat_Mozilla"/>
     </category>
 
-    <category displayName="$(string.Authentication_group)" name="Authentication">
+    <category displayName="$(string.Authentication_group)" name="Authentication (ESR)">
       <parentCategory ref="firefox"/>
     </category>
     <category displayName="$(string.Popups_group)" name="Popups">
@@ -33,16 +33,16 @@
     <category displayName="$(string.Bookmarks_group)" name="Bookmarks">
       <parentCategory ref="firefox"/>
     </category>
-    <category displayName="$(string.Homepage_group)" name="Homepage">
+    <category displayName="$(string.Homepage_group)" name="Homepage (ESR)">
       <parentCategory ref="firefox"/>
     </category>
     <category displayName="$(string.Certificates_group)" name="Certificates">
       <parentCategory ref="firefox"/>
     </category>
-    <category displayName="$(string.Extensions_group)" name="Extensions">
+    <category displayName="$(string.Extensions_group)" name="Extensions (ESR)">
       <parentCategory ref="firefox"/>
     </category>
-    <category displayName="$(string.Search_group)" name="Search">
+    <category displayName="$(string.Search_group)" name="Search (ESR)">
       <parentCategory ref="firefox"/>
     </category>
   </categories>
@@ -185,7 +185,7 @@
         <decimal value="0"/>
       </disabledValue>
     </policy>
-    <policy name="DisableAppUpdate" class="Both" displayName="$(string.DisableAppUpdate)" explainText="$(string.DisableAppUpdate_Explain)" key="Software\Policies\Mozilla\Firefox" valueName="DisableAppUpdate">
+    <policy name="DisableAppUpdate (ESR)" class="Both" displayName="$(string.DisableAppUpdate)" explainText="$(string.DisableAppUpdate_Explain)" key="Software\Policies\Mozilla\Firefox" valueName="DisableAppUpdate">
       <parentCategory ref="firefox"/>
       <supportedOn ref="SUPPORTED_WINXPSP2"/>
       <enabledValue>
@@ -355,7 +355,7 @@
         <decimal value="0"/>
       </disabledValue>
     </policy>
-    <policy name="DisableTelemetry" class="Both" displayName="$(string.DisableTelemetry)" explainText="$(string.DisableTelemetry_Explain)" key="Software\Policies\Mozilla\Firefox" valueName="DisableTelemetry">
+    <policy name="DisableTelemetry (ESR)" class="Both" displayName="$(string.DisableTelemetry)" explainText="$(string.DisableTelemetry_Explain)" key="Software\Policies\Mozilla\Firefox" valueName="DisableTelemetry">
       <parentCategory ref="firefox"/>
       <supportedOn ref="SUPPORTED_WINXPSP2"/>
       <enabledValue>
@@ -521,7 +521,7 @@
         <text id="OverridePage" valueName="OverrideFirstRunPage"/>
       </elements>
     </policy>
-    <policy name="OverridePostUpdatePage" class="Both" displayName="$(string.OverridePostUpdatePage)" explainText="$(string.OverridePostUpdatePage_Explain)" key="Software\Policies\Mozilla\Firefox" presentation="$(presentation.OverridePage)" >
+    <policy name="OverridePostUpdatePage (ESR)" class="Both" displayName="$(string.OverridePostUpdatePage)" explainText="$(string.OverridePostUpdatePage_Explain)" key="Software\Policies\Mozilla\Firefox" presentation="$(presentation.OverridePage)" >
       <parentCategory ref="firefox" />
       <supportedOn ref="SUPPORTED_WINXPSP2" />
       <elements>
@@ -776,7 +776,7 @@
         </boolean>
       </elements>
     </policy>
-    <policy name="SearchBar" class="Both" displayName="$(string.SearchBar)" explainText="$(string.SearchBar_Explain)" key="Software\Policies\Mozilla\Firefox"  presentation="$(presentation.SearchBar)">
+    <policy name="SearchBar (ESR)" class="Both" displayName="$(string.SearchBar)" explainText="$(string.SearchBar_Explain)" key="Software\Policies\Mozilla\Firefox"  presentation="$(presentation.SearchBar)">
       <parentCategory ref="firefox"/>
       <supportedOn ref="SUPPORTED_WINXPSP2"/>
       <elements>
